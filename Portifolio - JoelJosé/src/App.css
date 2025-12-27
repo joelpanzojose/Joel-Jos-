@@ -1,0 +1,23 @@
+/* Container central para todo o conteúdo do site */
+.site-container {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 16px; /* espaço lateral responsivo */
+	box-sizing: border-box;
+	padding-top: 72px; /* reservar espaço para o header fixo */
+}
+
+/* Reset básico do body */
+body {
+	margin: 0;
+}
+.content{
+	width: 100%;
+	min-height: calc(100vh - 72px); 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 0 16px;
+} 
+

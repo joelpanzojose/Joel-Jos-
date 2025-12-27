@@ -1,0 +1,56 @@
+.imagemhero{
+    width: 420px;
+    height: auto;
+}
+.box-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seta{
+    width: 100px;
+    height: auto;
+    margin-top: 50px;
+}
+section{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    gap: 90px;
+}
+.boxinfo{
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    h1{
+    font-size: 4.8rem;
+    margin-bottom: -5px;       
+    } 
+
+     span{
+            color: #00ADB5;
+            font-size: 4rem;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+         }
+}
+.buttons{
+    margin-top: 24px;
+    display: flex;
+    gap: 16px;
+        .btn-1{
+            background-color: #00ADB5;
+            transition: 0.3s;
+        }
+        .btn-1:hover{
+            background-color: #393E46;
+            border: 1px solid #00ADB5;
+        }
+        .btn-2{
+            background-color: #393E46;
+        }
+        .btn-2:hover{
+            border: 1px solid #00ADB5;
+        }
+}

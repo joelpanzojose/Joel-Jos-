@@ -1,0 +1,31 @@
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 36px;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 72px; /* ajuste conforme necessário */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    border-bottom: 1px rgba(255, 255, 255, 0.075) solid;
+    z-index: 1000;
+}
+
+header h1 {
+    font-size: 2.3rem;
+    cursor: pointer;
+}
