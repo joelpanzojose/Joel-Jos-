@@ -39,3 +39,42 @@
     color: white;
     cursor: pointer;
 }
+
+/* Responsividade - Mobile */
+@media (max-width: 600px) {
+    .project{
+        padding: 0 12px;
+    }
+
+    .cards-project{
+        gap: 12px;
+        justify-content: center;
+    }
+
+    .cards-project .card{
+        width: calc(50% - 12px);
+        height: auto;
+        min-height: 220px;
+    }
+
+    .bottons{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .bottons button{
+        width: auto;
+        padding: 10px 14px;
+    }
+}
+
+@media (max-width: 420px) {
+    .cards-project .card{
+        width: 100%;
+    }
+
+    .bottons button{
+        width: 100%;
+    }
+}

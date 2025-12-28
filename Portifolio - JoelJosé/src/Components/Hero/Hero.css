@@ -23,7 +23,8 @@ section{
     display: flex;
     flex-direction: column;
     gap: 6px;
-    h1{
+
+      h1{
     font-size: 4.8rem;
     margin-bottom: -5px;       
     } 
@@ -53,4 +54,73 @@ section{
         .btn-2:hover{
             border: 1px solid #00ADB5;
         }
+}
+
+/* Responsividade - Mobile */
+@media (max-width: 600px) {
+    section{
+        flex-direction: column;
+        align-items: center;
+        gap: 28px;
+        padding: 24px 12px;
+    }
+
+    .imagemhero{
+        width: 320px;
+        max-width: 90%;
+        order: 2;
+    }
+
+    .box-left{
+        width: 100%;
+        justify-content: center;
+        order: 1;
+        
+    }
+
+    .seta{
+        display: none;
+        width: 72px;
+        margin-top: 16px;
+    }
+
+    .boxinfo{
+        width: 100%;
+        padding: 0 8px;
+    }
+
+   
+
+    .boxinfo h1{
+        font-size: 2.6rem;
+        margin-bottom: 0;
+    }
+
+    .boxinfo span{
+        font-size: 1.8rem;
+    }
+
+    .buttons{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 420px) {
+    .imagemhero{
+        width: 260px;
+    }
+
+    .boxinfo h1{
+        font-size: 2.2rem;
+    }
+
+    .boxinfo span{
+        font-size: 1.4rem;
+    }
+    .seta{
+        width: 50px;
+    }
 }

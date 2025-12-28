@@ -44,3 +44,62 @@ strong{
 .luz{
     position: absolute;
 }
+
+/* Responsividade - Mobile */
+@media (max-width: 600px) {
+    .Container{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding: 24px 12px;
+        gap: 24px;
+    }
+
+    .info{
+        text-align: center;
+        width: 100%;
+        padding: 0 8px;
+    }
+
+    .me{
+        width: 300px;
+        margin-right: 0;
+        margin-bottom: 12px;
+        border-radius: 20%;
+    }
+
+    h2{
+        font-size: 2.2rem;
+    }
+
+    span{
+        font-size: 2rem;
+    }
+
+    /* esconder elementos posicionados fixos para não quebrar o layout mobile */
+    .setaenrolada,
+    .music,
+    .luz{
+        display: none;
+    }
+}
+
+@media (max-width: 420px) {
+    .me{
+        width: 220px;
+    }
+
+    h2{
+        font-size: 1.8rem;
+    }
+
+    span{
+        font-size: 1.6rem;
+    }
+
+    .Container{
+        padding: 16px 10px;
+        gap: 18px;
+    }
+}
