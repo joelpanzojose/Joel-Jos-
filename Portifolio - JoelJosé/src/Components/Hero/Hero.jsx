@@ -23,6 +23,7 @@ function Hero() {
                             <button className="btn-1">Hire Me</button>
                             <button className="btn-2">Download CV</button>
                         </div>
+    
                     </div>
                 </div>
 
