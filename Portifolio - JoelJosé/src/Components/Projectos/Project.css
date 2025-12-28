@@ -14,17 +14,20 @@
     justify-content: flex-start; /* alinhar ao início abaixo dos bottons */
     width: 100%;
 }
-
+.desc{
+    background-color: red;
+}
 .cards-project .card {
     width: 250px;
-    height: 350px;
-    background-color: rgba(255, 255, 255, 0.1);
+    height: 300px;
+    background-color: #ffffff1a;
 }
 
 .bottons {
     margin-bottom: 16px;
     display: flex;
     gap: 20px;
+   
 }
 
 .bottons button {

@@ -20,7 +20,12 @@ function Project() {
        <div className="cards-project">
 
         <Card image={projectone}
-         title="Jordan Shoes" description="Jordan Shoes"/>
+         title="Jordan Shoes"
+         
+         description="Landing page for Jordan Shoes, built with HTML, CSS, and JavaScript."
+          
+         
+         />
         <Card image={projectone} title="Project 2" description="Description of project 2"/>
         <Card image={projectone} title="Project 3" description="Description of project 3"/>
 

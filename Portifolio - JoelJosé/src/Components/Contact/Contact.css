@@ -1,0 +1,105 @@
+.container-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px; 
+}
+.contact{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px; 
+}
+
+.info img{
+    width: 350px;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.data div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.data{
+    display: flex;
+    gap: 10px;
+}
+.name input , .email input{
+    width: 250px;
+    height: 30px;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    background-color: #ffffff1a;
+    color: white;
+    outline: none;
+}
+textarea{
+    width: 540px;
+    resize: none;
+    height: 150px;
+     padding: 8px;
+    border-radius: 6px;
+    border: none;
+    background-color: #ffffff1a;
+    color: white;
+    outline: none;
+}
+button{
+    border-radius: 8px;
+    border: none;
+    background-color: #535bf2;
+    outline: none;
+    cursor: pointer;
+}
+.footer{
+    width: 80vw;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    justify-content: center;
+
+    display: flex;
+    flex-direction: column;
+}
+.box-info{
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    margin-top: 20px;
+    gap: 26px;
+    cursor: pointer;
+}
+.box-info div{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 10px;
+}
+.iconsdiv {
+    width: 30px;
+    height: 30px;
+    background-color: #535bf2;
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.icons i{
+    background-color: #3b3b3b73;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 20px;
+    height: 20px;
+}
