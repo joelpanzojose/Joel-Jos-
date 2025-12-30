@@ -8,8 +8,7 @@ function Card(props) {
             <h3>{props.title}</h3>
             <p>{props.description}</p>
             <div className="buttons">
-                <button className="btn-view">View</button>
-                <button className="btn-source">Source</button>
+                <a href="https://joelpanzojose.github.io/Jordan-Shoes/"><button className="btn-view">View</button></a>
             </div>
         </div>
     );

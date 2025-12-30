@@ -13,7 +13,7 @@ function Contact() {
 
             </div>
             
-            <form className="contact-form">
+            <form action="https://formsubmit.co/joeljosework835@gmail.com" method="POST" className="contact-form">
                 <div className="data">
                     <div className="name">
                         <label htmlFor="name">Your Name</label>
@@ -56,10 +56,10 @@ function Contact() {
                 </div>
 
                 <div className="icons">
-                    <i class="fi fi-brands-github"></i>
-                    <i class="fi fi-brands-linkedin"></i>
-                    <i class="fi fi-brands-instagram"></i>
-                    <i class="fi fi-brands-youtube"></i>
+                    <a href="https://github.com/joelpanzojose" target="_blank"><i class="fi fi-brands-github"></i></a>
+                    <a href="https://www.linkedin.com/in/joel-jos%C3%A9-790089344/" target="_blank"><i class="fi fi-brands-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fi fi-brands-instagram"></i></a>
+                    <a href="https://www.youtube.com/@joeljose_dev" target="_blank"><i class="fi fi-brands-youtube"></i></a>
                 </div>
             </div>
         </div>

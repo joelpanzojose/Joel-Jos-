@@ -17,24 +17,26 @@
 .card h3 {
     margin: 0;
     font-size: 1.1rem;
+    margin-bottom: -23px;
 }
 
 
 .card p {
-    margin: 0;
-    color: rgba(255,255,255,0.8);
+    /* margin: 0; */
+    color: #ffffffcc;
     /* background-color: #ffffff31; */
-    height: 100px;
+    /* height: 100px; */
     border-radius: 6px;  
-    width: 100%;
-    overflow: hidden;   
+    width: 100%; 
+    text-align: justify; 
 }
 .card img{
     border-radius: 8px;
     
 }
 
-.buttons {
+.buttons{
+    margin-top: 4px;
     width: 100%;
     display: flex;
     gap: 8px;
