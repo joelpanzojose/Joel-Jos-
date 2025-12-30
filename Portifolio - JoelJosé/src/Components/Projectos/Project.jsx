@@ -26,8 +26,8 @@ function Project() {
           
          
          />
-        <Card image={projectone} title="Project 2" description="Description of project 2"/>
-        <Card image={projectone} title="Project 3" description="Description of project 3"/>
+        {/* <Card image={projectone} title="Project 2" description="Description of project 2"/>
+        <Card image={projectone} title="Project 3" description="Description of project 3"/> */}
 
        </div>
        
