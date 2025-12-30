@@ -45,12 +45,12 @@ function Contact() {
                 <div className="box-info">
                     <div>
                         <i class="fi fi-rr-home"></i>
-                        <h4>Home</h4>
+                        <h4> <a href="#hero">Home</a></h4>
                     </div>
 
                     <div>
                         <i class="fi fi-rr-user"></i>
-                        <h4>About me</h4>
+                        <h4> <a href="#about">About me</a></h4>
                     </div>
                     
                 </div>
