@@ -20,8 +20,13 @@ function Hero() {
                         </div>
 
                         <div className="buttons">
-                            <button className="btn-1">Hire Me</button>
-                            <button className="btn-2">Download CV</button>
+                            <a href="#contact">
+                                <button className="btn-1">Hire Me</button>
+                            </a>
+                            <a href="">
+                                <button className="btn-2">Download CV</button>
+                            </a>
+                            
                         </div>
     
                     </div>

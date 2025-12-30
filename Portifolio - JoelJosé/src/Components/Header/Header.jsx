@@ -16,7 +16,7 @@ function Header() {
 
     return (
         <header className="header flex">
-            <h1 className="header-title">Joel Jose</h1>
+           <a href="#hero" className="h1"><h1 className="header-title">Joel Jose</h1></a> 
 
             <button
                 className={`hamburger ${open ? "is-active" : ""}`}
@@ -31,6 +31,7 @@ function Header() {
 
             <nav className={`header-nav ${open ? "open" : ""}`}>
                 <ul>
+                    <li><a href="#hero" onClick={handleLinkClick}>Home</a></li>
                     <li><a href="#about" onClick={handleLinkClick}>About</a></li>
                     <li><a href="#projects" onClick={handleLinkClick}>Projects</a></li>
                     <li><a href="#contact" onClick={handleLinkClick}>Contact</a></li>

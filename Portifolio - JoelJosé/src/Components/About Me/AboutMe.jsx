@@ -20,7 +20,7 @@ function AboutMe() {
                 </p>
 
                 <p>
-                    I also have knowledge in <strong>back-End</strong>Back-End development, but my passion is creating and developing interfaces; it is a world I have been exploring since I was <strong>16 </strong>years old.
+                    I also have knowledge in <strong>back-End</strong> development, but my passion is creating and developing interfaces; it is a world I have been exploring since I was <strong>16 </strong>years old.
                 </p>
 
                 <p>

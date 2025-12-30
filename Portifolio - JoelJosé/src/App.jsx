@@ -13,19 +13,19 @@ function App() {
     <div className="site-container">
       <Header />
 
-      <div className="content">
+      <div className="content" id='hero'>
           <Hero  />
       </div>
   {/* ========================================== */}
-      <div className="content">
+      <div className="content" id='about'>
           <AboutMe />
       </div>
     {/* ============================================ */}
-      <div className="content projects-section">
+      <div className="content projects-section" id='projects'>
           <Project />
       </div>
     {/* ================================================ */}
-      <div className="content">
+      <div className="content" id='contact'>
           <Contact />
       </div>
     </div>

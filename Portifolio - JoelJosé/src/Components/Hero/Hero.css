@@ -36,7 +36,7 @@ section{
             font-weight: bold;
          }
 }
-.buttons{
+.buttons {
     margin-top: 24px;
     display: flex;
     gap: 16px;
@@ -53,6 +53,10 @@ section{
         }
         .btn-2:hover{
             border: 1px solid #00ADB5;
+        }
+
+        a button{
+            padding: 13px 100px;
         }
 }
 
